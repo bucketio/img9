@@ -1,0 +1,79 @@
+<svg viewBox="0 0 700 450" xmlns="http://www.w3.org/2000/svg">
+  <!-- 主框架 -->
+  <rect x="20" y="20" width="660" height="410" fill="#f8f9fa" stroke="#333" stroke-width="2" rx="10"/>
+  
+  <!-- 标题 -->
+  <text x="50" y="50" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="bold" fill="#d73027">
+    "咦，这个切片要返回到函数外面去... 不行不行！"
+  </text>
+  
+  <!-- 栈区域标题 -->
+  <text x="50" y="90" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">
+    栈内存 (我们想要的):
+  </text>
+  
+  <!-- 栈框 -->
+  <rect x="50" y="100" width="150" height="100" fill="#e8f5e8" stroke="#4caf50" stroke-width="2" rx="5"/>
+  <text x="70" y="125" font-family="Microsoft YaHei, Arial, sans-serif" font-size="12" fill="#333">切片数据</text>
+  <text x="70" y="145" font-family="Courier New, monospace" font-size="12" fill="#666">[1, 2, 3]</text>
+  
+  <!-- 栈区域的 X 标记 -->
+  <text x="170" y="130" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#f44336">✗</text>
+  
+  <!-- 堆区域标题 -->
+  <text x="350" y="90" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">
+    堆内存 (实际得到的):
+  </text>
+  
+  <!-- 堆框 -->
+  <rect x="350" y="100" width="180" height="100" fill="#fff3e0" stroke="#ff9800" stroke-width="2" rx="5"/>
+  <text x="370" y="125" font-family="Microsoft YaHei, Arial, sans-serif" font-size="12" fill="#333">切片数据</text>
+  <text x="370" y="145" font-family="Courier New, monospace" font-size="12" fill="#666">[1, 2, 3]</text>
+  
+  <!-- 堆区域的 ✓ 标记 -->
+  <text x="500" y="130" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#4caf50">✓</text>
+  
+  <!-- 分割线 -->
+  <line x1="50" y1="230" x2="630" y2="230" stroke="#ddd" stroke-width="1"/>
+  
+  <!-- 结果说明 -->
+  <text x="50" y="260" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">
+    结果：快速分配变成了慢速分配
+  </text>
+  <text x="50" y="285" font-family="Microsoft YaHei, Arial, sans-serif" font-size="12" fill="#666">
+    (谢谢你啊，逃逸分析... 我猜？)
+  </text>
+  
+  <!-- 箭头从栈指向堆 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ff5722"/>
+    </marker>
+  </defs>
+  <path d="M 200 150 Q 275 120 350 150" stroke="#ff5722" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <text x="250" y="115" font-family="Microsoft YaHei, Arial, sans-serif" font-size="11" fill="#ff5722">逃逸到堆</text>
+  
+  <!-- 性能对比 -->
+  <rect x="50" y="320" width="250" height="80" fill="#ffebee" stroke="#e57373" stroke-width="1" rx="5"/>
+  <text x="60" y="340" font-family="Microsoft YaHei, Arial, sans-serif" font-size="12" font-weight="bold" fill="#d32f2f">
+    性能影响：
+  </text>
+  <text x="60" y="360" font-family="Microsoft YaHei, Arial, sans-serif" font-size="11" fill="#666">
+    • 栈分配：超快 ⚡
+  </text>
+  <text x="60" y="380" font-family="Microsoft YaHei, Arial, sans-serif" font-size="11" fill="#666">
+    • 堆分配：较慢，需要 GC 🐌
+  </text>
+  
+  <!-- 解决方案提示 -->
+  <rect x="380" y="320" width="250" height="80" fill="#e8f5e8" stroke="#81c784" stroke-width="1" rx="5"/>
+  <text x="390" y="340" font-family="Microsoft YaHei, Arial, sans-serif" font-size="12" font-weight="bold" fill="#388e3c">
+    优化建议：
+  </text>
+  <text x="390" y="360" font-family="Microsoft YaHei, Arial, sans-serif" font-size="11" fill="#666">
+    • 避免返回局部切片
+  </text>
+  <text x="390" y="380" font-family="Microsoft YaHei, Arial, sans-serif" font-size="11" fill="#666">
+    • 使用指针传参
+  </text>
+</svg>
