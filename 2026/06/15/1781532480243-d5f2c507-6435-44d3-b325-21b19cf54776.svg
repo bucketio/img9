@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+  <title id="title">大文件读写速度差异</title>
+  <desc id="desc">高速固态更适合大文件持续读写</desc>
+  <rect width="900" height="420" fill="#eef7f4"/>
+  <text x="450" y="58" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#102a43">速度参数主要体现在大文件搬运</text>
+  <rect x="92" y="128" width="228" height="170" rx="14" fill="#ffffff" stroke="#334155" stroke-width="3"/>
+  <path d="M145 170 h92 l34 36 v58 h-126z" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/>
+  <text x="206" y="338" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#1e3a8a">几十 GB 视频</text>
+  <path d="M356 213 h180" stroke="#0f766e" stroke-width="18" stroke-linecap="round"/>
+  <path d="M536 213 l-34 -24 v48z" fill="#0f766e"/>
+  <text x="446" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f766e">连续读写</text>
+  <rect x="580" y="128" width="228" height="170" rx="14" fill="#ffffff" stroke="#334155" stroke-width="3"/>
+  <rect x="634" y="172" width="120" height="72" rx="10" fill="#1f2937"/>
+  <circle cx="732" cy="222" r="10" fill="#f59e0b"/>
+  <text x="694" y="338" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#111827">高速固态优势明显</text>
+</svg>
