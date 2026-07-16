@@ -1,0 +1,81 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 360" width="700" height="360">
+  <rect width="700" height="360" fill="#f8f9fa" rx="8"/>
+  <rect x="0" y="0" width="700" height="360" fill="none" stroke="#dee2e6" stroke-width="1" rx="8"/>
+  <text x="350" y="30" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="15" font-weight="bold" fill="#2c3e50">AI 能力边界：人+AI 才是最优解</text>
+  
+  <!-- AI side -->
+  <g transform="translate(20, 50)">
+    <rect width="320" height="270" rx="10" fill="#e8f0fe" stroke="#1a6bff" stroke-width="2"/>
+    <rect x="0" y="0" width="320" height="40" rx="10" fill="#1a6bff"/>
+    <rect x="0" y="20" width="320" height="20" fill="#1a6bff"/>
+    <text x="160" y="26" text-anchor="middle" font-family="'Microsoft YaHei',sans-serif" font-size="16" font-weight="bold" fill="#fff">AI 擅长</text>
+    
+    <g transform="translate(20, 60)">
+      <circle cx="12" cy="12" r="6" fill="#1a6bff" opacity="0.3"/>
+      <circle cx="12" cy="12" r="3" fill="#1a6bff"/>
+      <text x="25" y="16" font-family="'Microsoft YaHei',sans-serif" font-size="13" fill="#2c3e50">检索海量信息</text>
+    </g>
+    <g transform="translate(20, 95)">
+      <circle cx="12" cy="12" r="6" fill="#1a6bff" opacity="0.3"/>
+      <circle cx="12" cy="12" r="3" fill="#1a6bff"/>
+      <text x="25" y="16" font-family="'Microsoft YaHei',sans-serif" font-size="13" fill="#2c3e50">比对结构化数据</text>
+    </g>
+    <g transform="translate(20, 130)">
+      <circle cx="12" cy="12" r="6" fill="#1a6bff" opacity="0.3"/>
+      <circle cx="12" cy="12" r="3" fill="#1a6bff"/>
+      <text x="25" y="16" font-family="'Microsoft YaHei',sans-serif" font-size="13" fill="#2c3e50">识别文档中的模式</text>
+    </g>
+    <g transform="translate(20, 165)">
+      <circle cx="12" cy="12" r="6" fill="#1a6bff" opacity="0.3"/>
+      <circle cx="12" cy="12" r="3" fill="#1a6bff"/>
+      <text x="25" y="16" font-family="'Microsoft YaHei',sans-serif" font-size="13" fill="#2c3e50">按规则自动生成内容</text>
+    </g>
+    <g transform="translate(20, 200)">
+      <circle cx="12" cy="12" r="6" fill="#1a6bff" opacity="0.3"/>
+      <circle cx="12" cy="12" r="3" fill="#1a6bff"/>
+      <text x="25" y="16" font-family="'Microsoft YaHei',sans-serif" font-size="13" fill="#2c3e50">7×24小时持续执行</text>
+    </g>
+  </g>
+  
+  <!-- Human side -->
+  <g transform="translate(360, 50)">
+    <rect width="320" height="270" rx="10" fill="#fff3e0" stroke="#ff6b35" stroke-width="2"/>
+    <rect x="0" y="0" width="320" height="40" rx="10" fill="#ff6b35"/>
+    <rect x="0" y="20" width="320" height="20" fill="#ff6b35"/>
+    <text x="160" y="26" text-anchor="middle" font-family="'Microsoft YaHei',sans-serif" font-size="16" font-weight="bold" fill="#fff">人 擅长</text>
+    
+    <g transform="translate(20, 60)">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="display:none"></div>
+      <circle cx="12" cy="12" r="6" fill="#ff6b35" opacity="0.3"/>
+      <circle cx="12" cy="12" r="3" fill="#ff6b35"/>
+      <text x="25" y="16" font-family="'Microsoft YaHei',sans-serif" font-size="13" fill="#2c3e50">专业判断与决策</text>
+    </g>
+    <g transform="translate(20, 95)">
+      <circle cx="12" cy="12" r="6" fill="#ff6b35" opacity="0.3"/>
+      <circle cx="12" cy="12" r="3" fill="#ff6b35"/>
+      <text x="25" y="16" font-family="'Microsoft YaHei',sans-serif" font-size="13" fill="#2c3e50">权衡多方利益诉求</text>
+    </g>
+    <g transform="translate(20, 130)">
+      <circle cx="12" cy="12" r="6" fill="#ff6b35" opacity="0.3"/>
+      <circle cx="12" cy="12" r="3" fill="#ff6b35"/>
+      <text x="25" y="16" font-family="'Microsoft YaHei',sans-serif" font-size="13" fill="#2c3e50">把握项目政治经济逻辑</text>
+    </g>
+    <g transform="translate(20, 165)">
+      <circle cx="12" cy="12" r="6" fill="#ff6b35" opacity="0.3"/>
+      <circle cx="12" cy="12" r="3" fill="#ff6b35"/>
+      <text x="25" y="16" font-family="'Microsoft YaHei',sans-serif" font-size="13" fill="#2c3e50">模糊信息中综合判断</text>
+    </g>
+    <g transform="translate(20, 200)">
+      <circle cx="12" cy="12" r="6" fill="#ff6b35" opacity="0.3"/>
+      <circle cx="12" cy="12" r="3" fill="#ff6b35"/>
+      <text x="25" y="16" font-family="'Microsoft YaHei',sans-serif" font-size="13" fill="#2c3e50">创新与经验直觉</text>
+    </g>
+  </g>
+  
+  <!-- Center plus -->
+  <text x="350" y="190" text-anchor="middle" font-family="sans-serif" font-size="28" font-weight="bold" fill="#2e7d32">+</text>
+  
+  <!-- Bottom tagline -->
+  <rect x="200" y="315" width="300" height="30" rx="15" fill="#2e7d32" opacity="0.12"/>
+  <text x="350" y="335" text-anchor="middle" font-family="'Microsoft YaHei',sans-serif" font-size="13" font-weight="bold" fill="#2e7d32">AI 辅助 + 人做判断 = 最优解</text>
+</svg>
