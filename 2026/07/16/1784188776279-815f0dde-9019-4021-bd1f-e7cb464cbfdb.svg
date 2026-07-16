@@ -1,0 +1,97 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 460" width="700" height="460">
+  <rect width="700" height="460" fill="#f8f9fa" rx="8"/>
+  <rect x="0" y="0" width="700" height="460" fill="none" stroke="#dee2e6" stroke-width="1" rx="8"/>
+  <text x="350" y="35" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">獴探 10大产品矩阵</text>
+  
+  <!-- Product cards - Row 1 -->
+  <g transform="translate(20, 55)">
+    <rect width="125" height="85" rx="6" fill="#e8f0fe" stroke="#1a6bff" stroke-width="1.5"/>
+    <text x="62" y="30" text-anchor="middle" font-family="'Microsoft YaHei',sans-serif" font-size="16" font-weight="bold" fill="#1a6bff">智谋</text>
+    <text x="62" y="50" text-anchor="middle" font-family="'Microsoft YaHei',sans-serif" font-size="10" fill="#555">项目谋划</text>
+    <text x="62" y="68" text-anchor="middle" font-family="'Microsoft YaHei',sans-serif" font-size="9" fill="#888">让项目谋划有数据支撑</text>
+    <rect x="10" y="75" width="14" height="5" rx="2" fill="#1a6bff" opacity="0.3"/>
+    <rect x="10" y="75" width="8" height="5" rx="2" fill="#1a6bff"/>
+  </g>
+  <g transform="translate(158, 55)">
+    <rect width="125" height="85" rx="6" fill="#e8f0fe" stroke="#1a6bff" stroke-width="1.5"/>
+    <text x="62" y="30" text-anchor="middle" font-family="'Microsoft YaHei',sans-serif" font-size="16" font-weight="bold" fill="#1a6bff">智策</text>
+    <text x="62" y="50" text-anchor="middle" font-family="'Microsoft YaHei',sans-serif" font-size="10" fill="#555">政策匹配</text>
+    <text x="62" y="68" text-anchor="middle" font-family="'Microsoft YaHei',sans-serif" font-size="9" fill="#888">政策不遗漏、文号不搞错</text>
+  </g>
+  <g transform="translate(296, 55)">
+    <rect width="125" height="85" rx="6" fill="#e8f0fe" stroke="#1a6bff" stroke-width="1.5"/>
+    <text x="62" y="30" text-anchor="middle" font-family="'Microsoft YaHei',sans-serif" font-size="16" font-weight="bold" fill="#1a6bff">智规</text>
+    <text x="62" y="50" text-anchor="middle" font-family="'Microsoft YaHei',sans-serif" font-size="10" fill="#555">专项规划</text>
+    <text x="62" y="68" text-anchor="middle" font-family="'Microsoft YaHei',sans-serif" font-size="9" fill="#888">多规合一不再打架</text>
+  </g>
+  <g transform="translate(434, 55)">
+    <rect width="125" height="85" rx="6" fill="#e8f0fe" stroke="#1a6bff" stroke-width="1.5"/>
+    <text x="62" y="30" text-anchor="middle" font-family="'Microsoft YaHei',sans-serif" font-size="16" font-weight="bold" fill="#1a6bff">智设</text>
+    <text x="62" y="50" text-anchor="middle" font-family="'Microsoft YaHei',sans-serif" font-size="10" fill="#555">方案设计</text>
+    <text x="62" y="68" text-anchor="middle" font-family="'Microsoft YaHei',sans-serif" font-size="9" fill="#888">边设计边合规</text>
+  </g>
+  <g transform="translate(572, 55)">
+    <rect width="110" height="85" rx="6" fill="#e8f0fe" stroke="#1a6bff" stroke-width="1.5"/>
+    <text x="55" y="30" text-anchor="middle" font-family="'Microsoft YaHei',sans-serif" font-size="16" font-weight="bold" fill="#1a6bff">智算</text>
+    <text x="55" y="50" text-anchor="middle" font-family="'Microsoft YaHei',sans-serif" font-size="10" fill="#555">投资测算</text>
+    <text x="55" y="68" text-anchor="middle" font-family="'Microsoft YaHei',sans-serif" font-size="9" fill="#888">资金拼盘一键算清</text>
+  </g>
+  
+  <!-- Row 2 -->
+  <g transform="translate(20, 155)">
+    <rect width="125" height="85" rx="6" fill="#fff3e0" stroke="#ff6b35" stroke-width="1.5"/>
+    <text x="62" y="30" text-anchor="middle" font-family="'Microsoft YaHei',sans-serif" font-size="16" font-weight="bold" fill="#ff6b35">智写</text>
+    <text x="62" y="50" text-anchor="middle" font-family="'Microsoft YaHei',sans-serif" font-size="10" fill="#555">报告生成</text>
+    <text x="62" y="68" text-anchor="middle" font-family="'Microsoft YaHei',sans-serif" font-size="9" fill="#888">可研报告从3天到1小时</text>
+    <rect x="10" y="75" width="14" height="5" rx="2" fill="#ff6b35" opacity="0.3"/>
+    <rect x="10" y="75" width="10" height="5" rx="2" fill="#ff6b35"/>
+  </g>
+  <g transform="translate(158, 155)">
+    <rect width="125" height="85" rx="6" fill="#f0f4ff" stroke="#5b6abf" stroke-width="1.5"/>
+    <text x="62" y="30" text-anchor="middle" font-family="'Microsoft YaHei',sans-serif" font-size="16" font-weight="bold" fill="#5b6abf">智治</text>
+    <text x="62" y="50" text-anchor="middle" font-family="'Microsoft YaHei',sans-serif" font-size="10" fill="#555">施工管控</text>
+    <text x="62" y="68" text-anchor="middle" font-family="'Microsoft YaHei',sans-serif" font-size="9" fill="#888">超支3%自动纠偏</text>
+  </g>
+  <g transform="translate(296, 155)">
+    <rect width="125" height="85" rx="6" fill="#f0f4ff" stroke="#5b6abf" stroke-width="1.5"/>
+    <text x="62" y="30" text-anchor="middle" font-family="'Microsoft YaHei',sans-serif" font-size="16" font-weight="bold" fill="#5b6abf">智鉴</text>
+    <text x="62" y="50" text-anchor="middle" font-family="'Microsoft YaHei',sans-serif" font-size="10" fill="#555">风险预警</text>
+    <text x="62" y="68" text-anchor="middle" font-family="'Microsoft YaHei',sans-serif" font-size="9" fill="#888">从事后补救到事前预警</text>
+  </g>
+  <g transform="translate(434, 155)">
+    <rect width="125" height="85" rx="6" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5"/>
+    <text x="62" y="30" text-anchor="middle" font-family="'Microsoft YaHei',sans-serif" font-size="16" font-weight="bold" fill="#2e7d32">智库</text>
+    <text x="62" y="50" text-anchor="middle" font-family="'Microsoft YaHei',sans-serif" font-size="10" fill="#555">知识管理</text>
+    <text x="62" y="68" text-anchor="middle" font-family="'Microsoft YaHei',sans-serif" font-size="9" fill="#888">经验不随人走</text>
+  </g>
+  <g transform="translate(572, 155)">
+    <rect width="110" height="85" rx="6" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5"/>
+    <text x="55" y="30" text-anchor="middle" font-family="'Microsoft YaHei',sans-serif" font-size="16" font-weight="bold" fill="#2e7d32">智枢</text>
+    <text x="55" y="50" text-anchor="middle" font-family="'Microsoft YaHei',sans-serif" font-size="10" fill="#555">数据中台</text>
+    <text x="55" y="68" text-anchor="middle" font-family="'Microsoft YaHei',sans-serif" font-size="9" fill="#888">数据互通协同</text>
+  </g>
+  
+  <!-- Phase labels row -->
+  <g transform="translate(20, 260)">
+    <text x="0" y="12" font-family="'Microsoft YaHei',sans-serif" font-size="11" fill="#888">覆盖阶段：</text>
+    <rect x="75" y="0" width="60" height="20" rx="10" fill="#1a6bff" opacity="0.12"/>
+    <text x="105" y="14" text-anchor="middle" font-family="'Microsoft YaHei',sans-serif" font-size="10" fill="#1a6bff">谋划决策</text>
+    <rect x="145" y="0" width="60" height="20" rx="10" fill="#ff6b35" opacity="0.12"/>
+    <text x="175" y="14" text-anchor="middle" font-family="'Microsoft YaHei',sans-serif" font-size="10" fill="#ff6b35">规划设计</text>
+    <rect x="215" y="0" width="60" height="20" rx="10" fill="#5b6abf" opacity="0.12"/>
+    <text x="245" y="14" text-anchor="middle" font-family="'Microsoft YaHei',sans-serif" font-size="10" fill="#5b6abf">施工管理</text>
+    <rect x="285" y="0" width="60" height="20" rx="10" fill="#2e7d32" opacity="0.12"/>
+    <text x="315" y="14" text-anchor="middle" font-family="'Microsoft YaHei',sans-serif" font-size="10" fill="#2e7d32">全链条</text>
+  </g>
+  
+  <!-- Highlight box -->
+  <rect x="20" y="300" width="660" height="70" rx="8" fill="#fffde7" stroke="#f9a825" stroke-width="1"/>
+  <text x="350" y="320" text-anchor="middle" font-family="'Microsoft YaHei',sans-serif" font-size="12" font-weight="bold" fill="#e65100">★ 首期上线核心产品</text>
+  <text x="350" y="342" text-anchor="middle" font-family="'Microsoft YaHei',sans-serif" font-size="13" fill="#2c3e50">
+    <tspan font-weight="bold" fill="#ff6b35">智写</tspan>（报告智能生成） · <tspan font-weight="bold" fill="#1a6bff">智策</tspan>（政策智能匹配） · <tspan font-weight="bold" fill="#2e7d32">智库</tspan>（行业知识库）
+  </text>
+  <text x="350" y="362" text-anchor="middle" font-family="'Microsoft YaHei',sans-serif" font-size="11" fill="#888">产品之间数据互通、能力互补 · 覆盖全过程咨询全链条</text>
+  
+  <!-- Footer -->
+  <text x="690" y="452" text-anchor="end" font-family="sans-serif" font-size="9" fill="#aaa">清源智界 · 獴探 产品矩阵</text>
+</svg>
