@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 430" font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC',sans-serif">
+  <rect width="900" height="430" fill="#f7f9fb"/>
+  <text x="450" y="48" font-size="22" font-weight="bold" fill="#1c3d5e" text-anchor="middle">寿命试验中的一个典型循环：功能与参数检查如何穿插</text>
+
+  <!-- 主时间轴 -->
+  <line x1="60" y1="120" x2="840" y2="120" stroke="#8fa8bf" stroke-width="4"/>
+  <polygon points="840,120 824,112 824,128" fill="#8fa8bf"/>
+
+  <!-- 节点 -->
+  <g font-size="14">
+    <circle cx="110" cy="120" r="12" fill="#d9822b"/>
+    <text x="110" y="88" text-anchor="middle" fill="#7a4210" font-weight="bold">参数基准</text>
+    <text x="110" y="70" text-anchor="middle" fill="#666">初始测量</text>
+    <text x="110" y="156" text-anchor="middle" fill="#666">与数据表核对</text>
+
+    <circle cx="260" cy="120" r="12" fill="#2f6fb7"/>
+    <text x="260" y="88" text-anchor="middle" fill="#1c3d5e" font-weight="bold">功能检查</text>
+    <text x="260" y="70" text-anchor="middle" fill="#666">试验前确认</text>
+    <text x="260" y="156" text-anchor="middle" fill="#666">所有运行模式</text>
+
+    <circle cx="410" cy="120" r="12" fill="#5a6b7b"/>
+    <text x="410" y="88" text-anchor="middle" fill="#3c4a58" font-weight="bold">施加应力</text>
+    <text x="410" y="70" text-anchor="middle" fill="#666">温度/湿度/振动…</text>
+    <text x="410" y="156" text-anchor="middle" fill="#666">如可行则在线监测</text>
+
+    <circle cx="570" cy="120" r="12" fill="#2f6fb7"/>
+    <text x="570" y="88" text-anchor="middle" fill="#1c3d5e" font-weight="bold">功能检查</text>
+    <text x="570" y="70" text-anchor="middle" fill="#666">应力后复验</text>
+    <text x="570" y="156" text-anchor="middle" fill="#666">能不能干活？</text>
+
+    <circle cx="720" cy="120" r="12" fill="#d9822b"/>
+    <text x="720" y="88" text-anchor="middle" fill="#7a4210" font-weight="bold">参数复测</text>
+    <text x="720" y="70" text-anchor="middle" fill="#666">与基准比对</text>
+    <text x="720" y="156" text-anchor="middle" fill="#666">特性有没有劣化？</text>
+  </g>
+
+  <!-- 判定框 -->
+  <rect x="140" y="230" width="620" height="150" rx="14" fill="#ffffff" stroke="#8fa8bf" stroke-width="2"/>
+  <text x="450" y="266" font-size="17" font-weight="bold" fill="#1c3d5e" text-anchor="middle">判定结果落到 VW 80101 失效等级</text>
+  <g font-size="14" text-anchor="middle">
+    <rect x="172" y="288" width="128" height="40" rx="8" fill="#e8f3ea" stroke="#3f8f5b"/>
+    <text x="236" y="313" fill="#2c6e44">A 无失效</text>
+    <rect x="316" y="288" width="128" height="40" rx="8" fill="#e8f3ea" stroke="#3f8f5b"/>
+    <text x="380" y="313" fill="#2c6e44">B 轻微偏差</text>
+    <rect x="460" y="288" width="128" height="40" rx="8" fill="#fdf3e0" stroke="#d9822b"/>
+    <text x="524" y="313" fill="#9c5a12">C-D 受限运行</text>
+    <rect x="604" y="288" width="128" height="40" rx="8" fill="#fbe9e7" stroke="#c0504d"/>
+    <text x="668" y="313" fill="#a13a36">E-F 功能丧失</text>
+  </g>
+  <text x="450" y="356" font-size="13" fill="#666" text-anchor="middle">功能失效 → 定性行为异常；参数超差 → 定量特性偏移，二者共同支撑等级判定</text>
+</svg>
