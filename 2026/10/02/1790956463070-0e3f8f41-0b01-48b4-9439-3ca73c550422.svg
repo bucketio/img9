@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 724" width="760" height="724">
+<defs>
+  <style>
+    text { font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; }
+    .mono { font-family: 'SF Mono', Menlo, Consolas, monospace; }
+  </style>
+  <linearGradient id="gBlue" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#1D4ED8"/><stop offset="100%" stop-color="#60A5FA"/></linearGradient>
+  <linearGradient id="gOrange" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#C2410C"/><stop offset="100%" stop-color="#FB923C"/></linearGradient>
+  <linearGradient id="gGreen" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#15803D"/><stop offset="100%" stop-color="#4ADE80"/></linearGradient>
+  <linearGradient id="gPurple" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#6D28D9"/><stop offset="100%" stop-color="#A78BFA"/></linearGradient>
+  <linearGradient id="gSlate" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#475569"/><stop offset="100%" stop-color="#94A3B8"/></linearGradient>
+  <linearGradient id="gTeal" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#0F766E"/><stop offset="100%" stop-color="#2DD4BF"/></linearGradient>
+  <filter id="shadowSm"><feDropShadow dx="0" dy="1" stdDeviation="3" flood-color="#64748B" flood-opacity="0.12"/></filter>
+  <marker id="arr_gray" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#94A3B8"/></marker>
+  <marker id="arr_green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#22C55E"/></marker>
+  <marker id="arr_blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#3B82F6"/></marker>
+  <marker id="arr_orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#F97316"/></marker>
+  <marker id="arr_red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#EF4444"/></marker>
+</defs>
+<rect width="760" height="724" fill="#F8FAFC"/>
+<text x="380" y="48" font-size="26" font-weight="800" fill="#0F172A" text-anchor="middle">会话的两个名字</text>
+<text x="380" y="76" font-size="14" font-weight="400" fill="#64748B" text-anchor="middle">sessionKey 是地址,sessionId 是这个地址当前指向的那份转录</text>
+<rect x="40" y="110" width="200" height="130" rx="12" fill="url(#gBlue)" filter="url(#shadowSm)"/>
+<text x="140" y="165" font-size="24" font-weight="800" fill="#FFFFFF" text-anchor="middle">sessionKey</text>
+<text x="140" y="192" font-size="13" font-weight="400" fill="#DBEAFE" text-anchor="middle">会话的地址</text>
+<rect x="252" y="110" width="468" height="130" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#shadowSm)"/>
+<text class="mono" x="272" y="144" font-size="16" font-weight="700" fill="#1E40AF" text-anchor="start">agent:main:main</text>
+<text x="272" y="172" font-size="13" font-weight="400" fill="#475569" text-anchor="start">回答"这是哪一个对话":决定消息路由到哪、谁和谁隔离</text>
+<text x="272" y="196" font-size="13" font-weight="400" fill="#475569" text-anchor="start">同一个来源的消息,总是落到同一个 key</text>
+<text x="272" y="220" font-size="13" font-weight="400" fill="#475569" text-anchor="start">主会话、群聊、定时任务……各有各的写法</text>
+<line x1="140" y1="242" x2="140" y2="288" stroke="#94A3B8" stroke-width="2" marker-end="url(#arr_gray)"/>
+<text x="156" y="270" font-size="12" font-weight="400" fill="#64748B" text-anchor="start">指向。同一时刻,一个 key 只指向一个 id</text>
+<rect x="40" y="292" width="200" height="130" rx="12" fill="url(#gOrange)" filter="url(#shadowSm)"/>
+<text x="140" y="347" font-size="24" font-weight="800" fill="#FFFFFF" text-anchor="middle">sessionId</text>
+<text x="140" y="374" font-size="13" font-weight="400" fill="#FFEDD5" text-anchor="middle">转录的编号</text>
+<rect x="252" y="292" width="468" height="130" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#shadowSm)"/>
+<text class="mono" x="272" y="326" font-size="16" font-weight="700" fill="#9A3412" text-anchor="start">3f2a9c71-5b0e-…</text>
+<text x="470" y="326" font-size="12" font-weight="400" fill="#94A3B8" text-anchor="start">(随机 UUID,示意)</text>
+<text x="272" y="354" font-size="13" font-weight="400" fill="#475569" text-anchor="start">回答"现在这份聊天记录,是哪一本"</text>
+<text x="272" y="378" font-size="13" font-weight="400" fill="#475569" text-anchor="start">转录是一条条追加的事件,按这个编号存进 SQLite</text>
+<text x="272" y="402" font-size="13" font-weight="700" fill="#B45309" text-anchor="start">/reset 不会换它</text>
+<line x1="140" y1="424" x2="140" y2="470" stroke="#94A3B8" stroke-width="2" marker-end="url(#arr_gray)"/>
+<text x="156" y="452" font-size="12" font-weight="400" fill="#64748B" text-anchor="start">里面存着</text>
+<rect x="40" y="474" width="680" height="92" rx="12" fill="#F0FDF4" stroke="#86EFAC" stroke-width="1" filter="url(#shadowSm)"/>
+<text x="60" y="502" font-size="14" font-weight="700" fill="#166534" text-anchor="start">转录 transcript:只追加的事件流</text>
+<rect x="60" y="520" width="112" height="26" rx="13" fill="#FFFFFF" stroke="#86EFAC" stroke-width="1"/>
+<text x="116.0" y="537.5" font-size="12" font-weight="400" fill="#166534" text-anchor="middle">消息 1</text>
+<rect x="188" y="520" width="112" height="26" rx="13" fill="#FFFFFF" stroke="#86EFAC" stroke-width="1"/>
+<text x="244.0" y="537.5" font-size="12" font-weight="400" fill="#166534" text-anchor="middle">消息 2</text>
+<rect x="316" y="520" width="112" height="26" rx="13" fill="#FFFFFF" stroke="#86EFAC" stroke-width="1"/>
+<text x="372.0" y="537.5" font-size="12" font-weight="400" fill="#166534" text-anchor="middle">消息 3</text>
+<rect x="444" y="520" width="112" height="26" rx="13" fill="#FFFFFF" stroke="#86EFAC" stroke-width="1"/>
+<text x="500.0" y="537.5" font-size="12" font-weight="400" fill="#166534" text-anchor="middle">消息 4</text>
+<rect x="572" y="520" width="112" height="26" rx="13" fill="#FFFFFF" stroke="#86EFAC" stroke-width="1"/>
+<text x="628.0" y="537.5" font-size="12" font-weight="400" fill="#166534" text-anchor="middle">……</text>
+<rect x="40" y="590" width="680" height="110" rx="12" fill="#0F172A" stroke="#0F172A" stroke-width="1" filter="url(#shadowSm)"/>
+<text x="64" y="620" font-size="14" font-weight="700" fill="#FBBF24" text-anchor="start">打个比方</text>
+<text x="64" y="648" font-size="13" font-weight="400" fill="#E2E8F0" text-anchor="start">key 是门牌号,id 是门后那本笔记本的编号。</text>
+<text x="64" y="670" font-size="13" font-weight="400" fill="#E2E8F0" text-anchor="start">/reset 不是换一本新的,是在同一本里夹一张书签。</text>
+</svg>
