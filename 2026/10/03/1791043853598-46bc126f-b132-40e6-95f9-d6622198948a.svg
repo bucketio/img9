@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 768" width="760" height="768">
+<defs>
+  <style>
+    text { font-family: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; }
+    .mono { font-family: 'SF Mono', Menlo, Consolas, monospace; }
+  </style>
+  <linearGradient id="gBlue" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#1D4ED8"/><stop offset="100%" stop-color="#60A5FA"/></linearGradient>
+  <linearGradient id="gOrange" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#C2410C"/><stop offset="100%" stop-color="#FB923C"/></linearGradient>
+  <linearGradient id="gGreen" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#15803D"/><stop offset="100%" stop-color="#4ADE80"/></linearGradient>
+  <linearGradient id="gPurple" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#6D28D9"/><stop offset="100%" stop-color="#A78BFA"/></linearGradient>
+  <linearGradient id="gSlate" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#475569"/><stop offset="100%" stop-color="#94A3B8"/></linearGradient>
+  <linearGradient id="gTeal" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#0F766E"/><stop offset="100%" stop-color="#2DD4BF"/></linearGradient>
+  <filter id="shadowSm"><feDropShadow dx="0" dy="1" stdDeviation="3" flood-color="#64748B" flood-opacity="0.12"/></filter>
+  <marker id="arr_gray" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#94A3B8"/></marker>
+  <marker id="arr_green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#22C55E"/></marker>
+  <marker id="arr_blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#3B82F6"/></marker>
+  <marker id="arr_orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#F97316"/></marker>
+  <marker id="arr_red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#EF4444"/></marker>
+</defs>
+<rect width="760" height="768" fill="#F8FAFC"/>
+<text x="380" y="48" font-size="26" font-weight="800" fill="#0F172A" text-anchor="middle">裁剪:两条路,同一个原则</text>
+<text x="380" y="76" font-size="14" font-weight="400" fill="#64748B" text-anchor="middle">只动旧的工具结果,原始转录一个字不改</text>
+<rect x="40" y="108" width="330" height="44" rx="12" fill="url(#gPurple)" filter="url(#shadowSm)"/>
+<text x="205" y="136" font-size="14" font-weight="800" fill="#FFFFFF" text-anchor="middle">直连 Anthropic API key</text>
+<rect x="390" y="108" width="330" height="44" rx="12" fill="url(#gOrange)" filter="url(#shadowSm)"/>
+<text x="555" y="136" font-size="14" font-weight="800" fill="#FFFFFF" text-anchor="middle">其他路由:本地裁剪</text>
+<rect x="40" y="160" width="330" height="310" rx="12" fill="#F5F3FF" stroke="#C4B5FD" stroke-width="1" filter="url(#shadowSm)"/>
+<text x="58" y="192" font-size="12" font-weight="700" fill="#64748B" text-anchor="start">谁来动手</text>
+<text x="130" y="192" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">Anthropic 服务端清理</text>
+<text x="58" y="230" font-size="12" font-weight="700" fill="#64748B" text-anchor="start">触发线</text>
+<text x="130" y="230" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">max(5 万 token, 窗口 30%)</text>
+<text x="58" y="268" font-size="12" font-weight="700" fill="#64748B" text-anchor="start">至少清</text>
+<text x="130" y="268" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">max(12,500 token, 窗口 5%)</text>
+<text x="58" y="306" font-size="12" font-weight="700" fill="#64748B" text-anchor="start">保留</text>
+<text x="130" y="306" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">最近 3 个工具调用</text>
+<text x="58" y="344" font-size="12" font-weight="700" fill="#64748B" text-anchor="start">请求里带</text>
+<text class="mono" x="130" y="344" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">clear_tool_uses_20250919</text>
+<text x="58" y="400" font-size="12" font-weight="400" fill="#4C1D95" text-anchor="start">清掉会让缓存从第一个被清的结果起失效,</text>
+<text x="58" y="420" font-size="12" font-weight="400" fill="#4C1D95" text-anchor="start">所以设了"至少清多少",免得白清一点点。</text>
+<text x="58" y="450" font-size="12" font-weight="700" fill="#4C1D95" text-anchor="start">这条路启用时,客户端不再自己裁。</text>
+<rect x="390" y="160" width="330" height="310" rx="12" fill="#FFF7ED" stroke="#FDBA74" stroke-width="1" filter="url(#shadowSm)"/>
+<text x="408" y="190" font-size="12" font-weight="700" fill="#64748B" text-anchor="start">门槛</text>
+<text x="480" y="190" font-size="12" font-weight="400" fill="#0F172A" text-anchor="start">缓存 TTL 之内不裁,默认 5 分钟</text>
+<text x="408" y="224" font-size="12" font-weight="700" fill="#64748B" text-anchor="start">保护</text>
+<text x="480" y="224" font-size="12" font-weight="400" fill="#0F172A" text-anchor="start">第一条用户消息之前、最近 3 条</text>
+<text x="480" y="258" font-size="12" font-weight="400" fill="#0F172A" text-anchor="start">assistant 回复以内,不裁</text>
+<text x="408" y="292" font-size="12" font-weight="700" fill="#64748B" text-anchor="start">soft-trim</text>
+<text x="480" y="292" font-size="12" font-weight="400" fill="#0F172A" text-anchor="start">窗口 ≥30%:超 4000 字符的结果</text>
+<text x="480" y="326" font-size="12" font-weight="400" fill="#0F172A" text-anchor="start">只留头 1500 加尾 1500 字符</text>
+<text x="408" y="360" font-size="12" font-weight="700" fill="#64748B" text-anchor="start">hard-clear</text>
+<text x="480" y="360" font-size="12" font-weight="400" fill="#0F172A" text-anchor="start">窗口 ≥50% 且可裁 ≥5 万字符:</text>
+<text x="480" y="394" font-size="12" font-weight="400" fill="#0F172A" text-anchor="start">换成占位符,降到 50% 以下为止</text>
+<text x="408" y="444" font-size="11.5" font-weight="400" fill="#B45309" text-anchor="start">旧的 softTrim 之类配置键已退役,阈值是内置的</text>
+<line x1="205" y1="472" x2="290" y2="512" stroke="#94A3B8" stroke-width="1.5" marker-end="url(#arr_gray)"/>
+<line x1="555" y1="472" x2="470" y2="512" stroke="#94A3B8" stroke-width="1.5" marker-end="url(#arr_gray)"/>
+<rect x="120" y="514" width="520" height="74" rx="12" fill="#F0FDF4" stroke="#86EFAC" stroke-width="1.5" filter="url(#shadowSm)"/>
+<text x="380" y="542" font-size="14" font-weight="700" fill="#166534" text-anchor="middle">共同点:转录里的原始工具结果不改</text>
+<text x="380" y="566" font-size="12" font-weight="400" fill="#14532D" text-anchor="middle">裁剪结果记成隐藏的 openclaw.cache-ttl 标记,重启后恢复同一个样子</text>
+<rect x="40" y="612" width="680" height="132" rx="12" fill="#0F172A" stroke="#0F172A" stroke-width="1" filter="url(#shadowSm)"/>
+<text x="64" y="642" font-size="14" font-weight="700" fill="#FBBF24" text-anchor="start">为什么盯着缓存</text>
+<text x="64" y="670" font-size="13" font-weight="400" fill="#E2E8F0" text-anchor="start">动机,文档原话:裁剪对 Anthropic 的 prompt cache 特别有用,</text>
+<text x="64" y="692" font-size="13" font-weight="400" fill="#E2E8F0" text-anchor="start">"It reduces the tool content that must be cached and keeps later requests</text>
+<text x="64" y="714" font-size="13" font-weight="400" fill="#E2E8F0" text-anchor="start">on the reduced prefix." 缓存没过期就不动,过期之后再一次裁到位。</text>
+</svg>
