@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" width="760" height="360" font-family="PingFang SC, Noto Sans SC, Microsoft YaHei, sans-serif">
+  <defs>
+    <linearGradient id="core" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1B4F9C"/>
+      <stop offset="55%" stop-color="#1A7A63"/>
+      <stop offset="100%" stop-color="#1F8A4C"/>
+    </linearGradient>
+    <marker id="a4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#7a8a84"/>
+    </marker>
+  </defs>
+  <rect width="760" height="360" fill="#fff"/>
+
+  <text x="94" y="34" text-anchor="middle" font-size="13" font-weight="700" fill="#1E3932">多个入口</text>
+  <text x="380" y="34" text-anchor="middle" font-size="13" font-weight="700" fill="#1E3932">一个连续的智小星</text>
+  <text x="666" y="34" text-anchor="middle" font-size="13" font-weight="700" fill="#1B4F9C">用户上下文（按用户隔离）</text>
+
+  <!-- entries -->
+  <g font-size="13" text-anchor="middle">
+    <rect x="14" y="50" width="160" height="42" rx="8" fill="#F1F7F4" stroke="#9bc6b4"/>
+    <text x="94" y="68" font-weight="700" fill="#006241">PC 端</text>
+    <text x="94" y="85" font-size="11" fill="#55665f">OAH 门户 · 深度分析</text>
+    <rect x="14" y="102" width="160" height="42" rx="8" fill="#F1F7F4" stroke="#9bc6b4"/>
+    <text x="94" y="120" font-weight="700" fill="#006241">移动端</text>
+    <text x="94" y="137" font-size="11" fill="#55665f">绿围裙 · 随手一问</text>
+    <rect x="14" y="154" width="160" height="42" rx="8" fill="#FBF6EA" stroke="#CBA258" stroke-dasharray="5 3"/>
+    <text x="94" y="172" font-weight="700" fill="#8a6a26">飞书工作台</text>
+    <text x="94" y="189" font-size="11" fill="#8a6a26">开发中</text>
+    <rect x="14" y="206" width="160" height="42" rx="8" fill="#F1F7F4" stroke="#9bc6b4"/>
+    <text x="94" y="224" font-weight="700" fill="#006241">定时任务</text>
+    <text x="94" y="241" font-size="11" fill="#55665f">到点自动执行</text>
+    <rect x="14" y="258" width="160" height="42" rx="8" fill="#F1F7F4" stroke="#9bc6b4"/>
+    <text x="94" y="276" font-weight="700" fill="#006241">消息通知</text>
+    <text x="94" y="293" font-size="11" fill="#55665f">邮件 · 企微 · 飞书</text>
+  </g>
+
+  <!-- core -->
+  <rect x="222" y="50" width="316" height="250" rx="16" fill="url(#core)"/>
+  <text x="380" y="88" text-anchor="middle" font-size="18" font-weight="700" fill="#fff">智小星</text>
+  <text x="380" y="110" text-anchor="middle" font-size="12" fill="#d8ece4">不同入口，连续的协作体验</text>
+  <g font-size="13" text-anchor="middle" fill="#1E3932">
+    <rect x="246" y="130" width="268" height="40" rx="8" fill="#fff" opacity="0.95"/>
+    <text x="380" y="155">Harness：同一套任务组织与验证</text>
+    <rect x="246" y="180" width="268" height="40" rx="8" fill="#fff" opacity="0.95"/>
+    <text x="380" y="205">语义层：同一套业务知识与指标口径</text>
+    <rect x="246" y="230" width="268" height="40" rx="8" fill="#fff" opacity="0.95"/>
+    <text x="380" y="255">个人上下文：理解你的需求与习惯</text>
+  </g>
+
+  <!-- state: five boxes aligned with the entry column -->
+  <g font-size="13" text-anchor="middle">
+    <rect x="586" y="50" width="160" height="42" rx="8" fill="#EAF0F8" stroke="#a9bfdf"/>
+    <text x="666" y="68" font-weight="700" fill="#1B4F9C">会话历史</text>
+    <text x="666" y="85" font-size="11" fill="#4a5a74">跨端可见、标注来源端</text>
+    <rect x="586" y="102" width="160" height="42" rx="8" fill="#FBF6EA" stroke="#CBA258" stroke-dasharray="5 3"/>
+    <text x="666" y="120" font-weight="700" fill="#8a6a26">跨会话持久记忆</text>
+    <text x="666" y="137" font-size="11" fill="#8a6a26">应用侧沉淀、更新与汰换</text>
+    <rect x="586" y="154" width="160" height="42" rx="8" fill="#EAF0F8" stroke="#a9bfdf"/>
+    <text x="666" y="172" font-weight="700" fill="#1B4F9C">我的词典</text>
+    <text x="666" y="189" font-size="11" fill="#4a5a74">用户自维护的专属术语</text>
+    <rect x="586" y="206" width="160" height="42" rx="8" fill="#FBF6EA" stroke="#CBA258" stroke-dasharray="5 3"/>
+    <text x="666" y="224" font-weight="700" fill="#8a6a26">我的技能（开发中）</text>
+    <text x="666" y="241" font-size="11" fill="#8a6a26">自管个性化 Skill 与分析方法</text>
+    <rect x="586" y="258" width="160" height="42" rx="8" fill="#EAF0F8" stroke="#a9bfdf"/>
+    <text x="666" y="276" font-weight="700" fill="#1B4F9C">星标问答与文件</text>
+    <text x="666" y="293" font-size="11" fill="#4a5a74">可复用的结论与产物</text>
+  </g>
+
+  <g stroke="#7a8a84" stroke-width="1.5" fill="none">
+    <line x1="176" y1="71" x2="220" y2="135" marker-end="url(#a4)"/>
+    <line x1="176" y1="123" x2="220" y2="155" marker-end="url(#a4)"/>
+    <line x1="176" y1="175" x2="220" y2="175" stroke-dasharray="4 3" marker-end="url(#a4)"/>
+    <line x1="176" y1="227" x2="220" y2="195" marker-end="url(#a4)"/>
+    <line x1="220" y1="215" x2="176" y2="279" marker-end="url(#a4)"/>
+    <line x1="540" y1="175" x2="584" y2="175" stroke-dasharray="4 3" marker-end="url(#a4)" marker-start="url(#a4)"/>
+  </g>
+
+  <rect x="14" y="318" width="732" height="32" rx="8" fill="#fff" stroke="#CBA258" stroke-dasharray="6 4"/>
+  <text x="380" y="339" text-anchor="middle" font-size="12.5" fill="#8a6a26">探索中：主 Agent 调度子 Agent · 事件触发的「数找人」　｜　开发中：飞书工作台入口 · 我的技能</text>
+</svg>
